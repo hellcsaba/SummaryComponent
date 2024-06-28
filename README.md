@@ -28,10 +28,6 @@ Users should be able to:
 ![](./design/desktop_active.png)
 ![](./design/mobile_design.png)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-
 ## My process
 
 ### Built with
