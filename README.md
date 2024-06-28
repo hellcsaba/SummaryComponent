@@ -41,8 +41,6 @@ Users should be able to:
 
 I learnt how to create a responsive and appealing component using only CSS (especially Flexbox) and HTML and how to add custom fonts to a project.
 
-To see how you can add code snippets, see below:
-
 ## Author
 
 - Website - [Csaba Hell](https://github.com/hellcsaba)
