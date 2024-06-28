@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'HankenGrotesk';
+  src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk';
+  src: url('assets/fonts/static/HankenGrotesk-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk';
+  src: url('assets/fonts/static/HankenGrotesk-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk';
+  src: url('assets/fonts/static/HankenGrotesk-Medium.ttf') format('truetype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'HankenGrotesk', sans-serif;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 90%;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 20px;
+  }
+
+  @media (min-width: 500px) {
+    .card {
+      flex-direction: row;
+      max-width: 600px;
+    }
+  }
+
+  .result {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+    padding: 20px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    flex: 1;
+  }
+
+  .result .title {
+    color: hsl(0, 0%, 80%);
+    font-weight: 500;
+  }
+
+  .rating-circle {
+    background: linear-gradient(
+      hsla(256, 72%, 46%, 1),
+      hsla(241, 72%, 46%, 0)
+    );
+    border-radius: 50%;
+    margin: 15px auto;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .rating-circle .score {
+    font-weight: 800;
+    font-size: xx-large;
+  }
+
+  .rating-circle .max-score {
+    font-size: 14px;
+    color: hsl(0, 0%, 80%);
+  }
+
+  .result .rating {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .result .description {
+    font-size: 14px;
+    color: hsl(0, 0%, 80%);
+  }
+
+  .summary {
+    padding: 20px;
+    flex: 1;
+  }
+
+  .summary .title {
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+
+  .summary .item-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
+    background-color: hsl(0, 50%, 95%);
+  }
+
+  .summary .item-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: hsl(39, 100%, 56%);
+    font-weight: 700;
+    background-color: hsl(39, 60%, 95%);
+  }
+
+  .summary .item-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: hsl(166, 100%, 37%);
+    font-weight: 700;
+    background-color: hsl(166, 50%, 95%);
+  }
+
+  .summary .item-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: hsl(234, 85%, 45%);
+    font-weight: 700;
+    background-color: hsl(234, 50%, 95%);
+  }
+
+  .summary .item .label {
+    font-size: 16px;
+  }
+
+  .summary .score {
+    font-size: 16px;
+    color: hsl(224, 29.9%, 26.9%);
+    font-weight: 600;
+  }
+
+  .summary .max-score {
+    font-size: 16px;
+    color: hsla(224, 30%, 27%, 65%);
+    font-weight: 600;
+  }
+
+  .continue {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(224, 29.9%, 26.9%);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .continue:hover {
+    background-color: hsl(224, 29.9%, 35%);
+  }
+
+  .continue:active {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  }
