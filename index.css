@@ -115,62 +115,50 @@
     flex: 1;
   }
 
-  .summary .title {
+  .title {
     font-weight: 700;
     font-size: 18px;
     padding-bottom: 20px;
   }
 
-  .summary .item-1 {
+  .skill {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     margin-bottom: 15px;
-    padding: 10px;
-    border-radius: 5px;
-    color: hsl(0, 100%, 67%);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
     font-weight: 700;
+  }
+
+  .skill--reaction {
+    color: hsl(0, 100%, 67%);
     background-color: hsl(0, 50%, 95%);
   }
 
-  .summary .item-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 15px;
-    padding: 10px;
-    border-radius: 5px;
+  .skill--memory {
     color: hsl(39, 100%, 56%);
-    font-weight: 700;
     background-color: hsl(39, 60%, 95%);
   }
 
-  .summary .item-3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 15px;
-    padding: 10px;
-    border-radius: 5px;
+  .skill--verbal {
     color: hsl(166, 100%, 37%);
-    font-weight: 700;
     background-color: hsl(166, 50%, 95%);
   }
 
-  .summary .item-4 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 15px;
-    padding: 10px;
-    border-radius: 5px;
+  .skill--visual {
     color: hsl(234, 85%, 45%);
-    font-weight: 700;
     background-color: hsl(234, 50%, 95%);
   }
 
-  .summary .item .label {
+  .summary .skill .label {
     font-size: 16px;
+  }
+
+  .label { 
+    display: flex;
+    gap: 0.75rem;
   }
 
   .summary .score {
@@ -188,14 +176,15 @@
   .continue {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 0.75rem;
     background-color: hsl(224, 29.9%, 26.9%);
     color: white;
     border: none;
     border-radius: 20px;
     cursor: pointer;
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 2rem;
+    font-weight: 600;
   }
 
   .continue:hover {
