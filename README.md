@@ -7,7 +7,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -28,10 +27,6 @@ Users should be able to:
 ![](./design/desktop_active.png)
 ![](./design/mobile_design.png)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-
 ## My process
 
 ### Built with
@@ -45,8 +40,6 @@ Users should be able to:
 ### What I learned
 
 I learnt how to create a responsive and appealing component using only CSS (especially Flexbox) and HTML and how to add custom fonts to a project.
-
-To see how you can add code snippets, see below:
 
 ## Author
 
